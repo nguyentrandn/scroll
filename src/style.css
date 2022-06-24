@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.one{
+    background: url(./asset/Saber.jpg);
+    background-size: cover;
+    position: relative;
+}
+.one .opacity {
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(76, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one img{
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-item{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    color: white;
+    border-radius: 5px;
+    padding: 25px;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(55, 36, 36);
+}
+.card-item h1{
+    line-height: 60px;
+}
+
+
+
+.two{
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.vd-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vd-title{
+    position: absolute;
+    width: 600px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.three{
+    background-color: darkturquoise;
+}
+.four{
+    background-color: coral;
+}
